@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "ab9478a8-b16a-421d-9b55-908dde89ad36", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "c1ff82fe-16b6-4039-aa6d-b3c3b245ce72", 
+    "key": "kswprenameisolink", 
+    "name": "KSWP Rename ISO (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "56d962a4-655e-49bf-8dfe-0422eff27961", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
