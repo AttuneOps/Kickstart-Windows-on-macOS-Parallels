@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "7cb38891-a9bf-4c78-9385-b048193512b1", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "0ee6ab4f-ec37-4dc6-a240-d2d0410bc62f", 
+    "key": "kswpdeploywindowsdesktop10isolink", 
+    "name": "KSWP Deploy Windows Desktop 10 ISO (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "56d962a4-655e-49bf-8dfe-0422eff27961", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

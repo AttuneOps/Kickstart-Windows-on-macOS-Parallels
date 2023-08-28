@@ -1,0 +1,11 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "ce82eceb-3e56-4d01-b575-8eb1ed18720f", 
+    "isBlueprint": true, 
+    "key": "kickstartwindowsserver2019onmacosparallels", 
+    "links": [], 
+    "name": "Kickstart Windows Server 2019 on macOS Parallels", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

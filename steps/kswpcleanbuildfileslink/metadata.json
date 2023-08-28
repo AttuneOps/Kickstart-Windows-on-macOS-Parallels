@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "4d704917-7bfb-487d-be46-33f82870fba7", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "a0431f8b-5ce6-40fc-bd41-9ff924200af1", 
+    "key": "kswpcleanbuildfileslink", 
+    "name": "KSWP Clean Build Files (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "56d962a4-655e-49bf-8dfe-0422eff27961", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

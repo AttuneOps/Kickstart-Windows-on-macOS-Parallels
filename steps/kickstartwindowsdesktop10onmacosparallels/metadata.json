@@ -1,0 +1,20 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "4cf9a0c7-a5aa-4c00-9abe-a561e626f45b", 
+    "isBlueprint": true, 
+    "key": "kickstartwindowsdesktop10onmacosparallels", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "kswpcleanbuildfileslink"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "kswpdeploywindowsdesktop10isolink"
+        }
+    ], 
+    "name": "Kickstart Windows Desktop 10 on macOS Parallels", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
