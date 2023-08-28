@@ -5,7 +5,20 @@
     "externalUuid4": "ce82eceb-3e56-4d01-b575-8eb1ed18720f", 
     "isBlueprint": true, 
     "key": "kickstartwindowsserver2019onmacosparallels", 
-    "links": [], 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "createdriversandanswerfilewin2019isolink"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "removecdromdrivesandrestartlink"
+        }
+    ], 
     "name": "Kickstart Windows Server 2019 on macOS Parallels", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }
