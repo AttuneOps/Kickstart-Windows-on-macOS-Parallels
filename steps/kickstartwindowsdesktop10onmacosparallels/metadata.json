@@ -7,16 +7,16 @@
     "key": "kickstartwindowsdesktop10onmacosparallels", 
     "links": [
         {
-            "order": 0, 
-            "stepKey": "kswpcleanbuildfileslink"
+            "order": 200, 
+            "stepKey": "createdriversandanswerfileisolink"
         }, 
         {
-            "order": 50, 
-            "stepKey": "kswpdeploywindowsdesktop10isolink"
+            "order": 250, 
+            "stepKey": "ksparallelsrecreatevirtualmachinelink"
         }, 
         {
-            "order": 100, 
-            "stepKey": "kswprenameisolink"
+            "order": 300, 
+            "stepKey": "removecdromdrivesandrestartlink"
         }
     ], 
     "name": "Kickstart Windows Desktop 10 on macOS Parallels", 
