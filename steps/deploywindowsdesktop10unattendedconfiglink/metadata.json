@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "cca54f2b-4f03-4738-ab8c-d0a94cd5f370", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "29df1c74-0500-4bfb-a749-2bd99b421602", 
+    "key": "deploywindowsdesktop10unattendedconfiglink", 
+    "name": "Deploy Windows Desktop 10 Unattended Config (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "56d962a4-655e-49bf-8dfe-0422eff27961", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

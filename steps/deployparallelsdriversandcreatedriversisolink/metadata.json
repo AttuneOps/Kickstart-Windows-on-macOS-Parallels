@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "60dbdf32-59e8-42aa-82c9-429e4f86c938", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "8f09f89e-9688-46ba-845f-8cd240df517b", 
+    "key": "deployparallelsdriversandcreatedriversisolink", 
+    "name": "Deploy Parallels Drivers and Create Drivers ISO (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "56d962a4-655e-49bf-8dfe-0422eff27961", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

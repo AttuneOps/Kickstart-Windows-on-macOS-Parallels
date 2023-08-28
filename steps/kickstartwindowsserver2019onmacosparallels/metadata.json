@@ -7,15 +7,23 @@
     "key": "kickstartwindowsserver2019onmacosparallels", 
     "links": [
         {
-            "order": 0, 
-            "stepKey": "createdriversandanswerfilewin2019isolink"
-        }, 
-        {
             "order": 50, 
-            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+            "stepKey": "deployandrenamewin2019isolink"
         }, 
         {
             "order": 100, 
+            "stepKey": "deploywindowsserverunattendedconfiglink"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "deployparallelsdriversandcreatedriversisolink"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+        }, 
+        {
+            "order": 250, 
             "stepKey": "removecdromdrivesandrestartlink"
         }
     ], 

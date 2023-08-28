@@ -7,15 +7,23 @@
     "key": "kickstartwindowsdesktop10onmacosparallels", 
     "links": [
         {
-            "order": 200, 
-            "stepKey": "createdriversandanswerfilewin10isolink"
-        }, 
-        {
             "order": 250, 
-            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+            "stepKey": "deployandrenamewin10isolink"
         }, 
         {
             "order": 300, 
+            "stepKey": "deploywindowsdesktop10unattendedconfiglink"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "deployparallelsdriversandcreatedriversisolink"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+        }, 
+        {
+            "order": 450, 
             "stepKey": "removecdromdrivesandrestartlink"
         }
     ], 
