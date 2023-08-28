@@ -1,0 +1,32 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "b0d3f356-ddca-4533-89d6-55feb9eaa1f4", 
+    "isBlueprint": true, 
+    "key": "kickstartwindowsserver2022onmacosparallels", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "deployandrenamewin2022isolink"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "deploywindowsserverunattendedconfiglink"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "deployparallelsdriversandcreatedriversisolink"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "removecdromdrivesandrestartlink"
+        }
+    ], 
+    "name": "Kickstart Windows Server 2022 on macOS Parallels", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

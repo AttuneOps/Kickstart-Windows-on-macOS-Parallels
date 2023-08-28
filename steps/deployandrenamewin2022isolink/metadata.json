@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "b947c7c7-c5e4-40fd-8029-78623718ea3a", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "6cd80754-37d0-4513-81fe-e99b56d2ba51", 
+    "key": "deployandrenamewin2022isolink", 
+    "name": "Deploy and Rename Win2022 ISO (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "56d962a4-655e-49bf-8dfe-0422eff27961", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
