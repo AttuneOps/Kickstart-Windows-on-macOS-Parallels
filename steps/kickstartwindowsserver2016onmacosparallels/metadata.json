@@ -1,0 +1,32 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "338e3d8f-08b9-4d75-915e-a73ae140169c", 
+    "isBlueprint": true, 
+    "key": "kickstartwindowsserver2016onmacosparallels", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "deployandrenamewin2016isolink"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "deploywindowsserverunattendedconfiglink"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "deployparallelsdriversandcreatedriversisolink"
+        }, 
+        {
+            "order": 150, 
+            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "removecdromdrivesandrestartlink"
+        }
+    ], 
+    "name": "Kickstart Windows Server 2016 on macOS Parallels", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

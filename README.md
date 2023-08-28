@@ -60,6 +60,9 @@ This Project contains the following Blueprints.
 ### Kickstart Windows Server 2019 on macOS Parallels
 
 
+### Kickstart Windows Server 2016 on macOS Parallels
+
+
 
 
 
