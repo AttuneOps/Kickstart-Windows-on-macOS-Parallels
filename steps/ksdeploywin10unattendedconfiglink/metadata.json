@@ -1,15 +1,15 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "", 
-    "blueprintUuid": "cca54f2b-4f03-4738-ab8c-d0a94cd5f370", 
+    "blueprintUuid": "95eff22d-d850-45f8-9232-474629f95d0a", 
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "29df1c74-0500-4bfb-a749-2bd99b421602", 
-    "key": "deploywindowsdesktop10unattendedconfiglink", 
-    "name": "Deploy Windows Desktop 10 Unattended Config (link)", 
+    "key": "ksdeploywin10unattendedconfiglink", 
+    "name": "KS Deploy Win10 Unattended Config (link)", 
     "parameterMap": [], 
     "projectName": "", 
-    "projectUuid": "56d962a4-655e-49bf-8dfe-0422eff27961", 
+    "projectUuid": "60ee90db-67db-45e3-b016-79f368e87195", 
     "projectVersion": "", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }

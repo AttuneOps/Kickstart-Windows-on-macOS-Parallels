@@ -7,12 +7,20 @@
     "key": "kickstartwindowsdesktop10onmacosparallels", 
     "links": [
         {
-            "order": 250, 
-            "stepKey": "deployandrenamewin10isolink"
+            "order": 0, 
+            "stepKey": "kscheckmacosforisobuildinglink"
+        }, 
+        {
+            "order": 50, 
+            "stepKey": "deploywindowsdesktop10isolink"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "ksrenameisolink"
         }, 
         {
             "order": 300, 
-            "stepKey": "deploywindowsdesktop10unattendedconfiglink"
+            "stepKey": "ksdeploywin10unattendedconfiglink"
         }, 
         {
             "order": 350, 
