@@ -16,7 +16,7 @@
         }, 
         {
             "order": 150, 
-            "stepKey": "deployparallelsdriversandcreatedriversisolink"
+            "stepKey": "ksdeployparallelsdriverslink"
         }, 
         {
             "order": 200, 

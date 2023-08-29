@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "fd5b313a-ae29-426d-93df-3d86adc9a4d2", 
+    "key": "macoshost", 
+    "name": "macOS Host", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinuxServer"
+}

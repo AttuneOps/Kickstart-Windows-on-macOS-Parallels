@@ -7,7 +7,17 @@
     "externalUuid4": "29df1c74-0500-4bfb-a749-2bd99b421602", 
     "key": "ksdeploywin10unattendedconfiglink", 
     "name": "KS Deploy Win10 Unattended Config (link)", 
-    "parameterMap": [], 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "75553815-acea-40c6-9c46-ec3237fa314c", 
+            "childProjectName": null, 
+            "childProjectUuid": "60ee90db-67db-45e3-b016-79f368e87195", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "Ethernet"
+        }
+    ], 
     "projectName": "", 
     "projectUuid": "60ee90db-67db-45e3-b016-79f368e87195", 
     "projectVersion": "", 

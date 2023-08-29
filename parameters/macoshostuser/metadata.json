@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "99083903-78e9-4a3c-8594-5218e9de6e8f", 
+    "key": "macoshostuser", 
+    "name": "macOS Host User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}
