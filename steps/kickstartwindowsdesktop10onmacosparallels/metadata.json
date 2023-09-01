@@ -45,6 +45,10 @@
         {
             "order": 600, 
             "stepKey": "kscleanbuildfileslink"
+        }, 
+        {
+            "order": 650, 
+            "stepKey": "installparallelstoolslink"
         }
     ], 
     "name": "Kickstart Windows Desktop 10 on macOS Parallels", 
