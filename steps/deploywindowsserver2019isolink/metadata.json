@@ -1,0 +1,43 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "c9b7bf5d-a56f-4a17-b681-f097019aabfc", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "ad831183-d1d4-4422-9e09-f345f686c371", 
+    "key": "deploywindowsserver2019isolink", 
+    "name": "Deploy Windows Server 2019 ISO (link)", 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinuxServer", 
+            "childParameterUuid": "6adef4f6-9180-4ab1-95e7-486de103f1fd", 
+            "childProjectName": null, 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+            "parentParameterKey": "macoshost", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinOsCred", 
+            "childParameterUuid": "7a64ee22-768c-411b-8aee-fb482908f6fb", 
+            "childProjectName": null, 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+            "parentParameterKey": "macoshostuser", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "27cbd06c-9a60-48ed-b8d0-bd0d34dbe544", 
+            "childProjectName": null, 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "${HOME}/Parallels/os_auto_install/"
+        }
+    ], 
+    "projectName": "", 
+    "projectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

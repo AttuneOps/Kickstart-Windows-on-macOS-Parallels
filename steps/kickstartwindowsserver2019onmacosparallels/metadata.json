@@ -16,23 +16,39 @@
         }, 
         {
             "order": 100, 
-            "stepKey": "deployandrenamewin2019isolink"
+            "stepKey": "deploywindowsserver2019isolink"
         }, 
         {
             "order": 150, 
-            "stepKey": "deploywindowsserverunattendedconfiglink"
-        }, 
-        {
-            "order": 200, 
-            "stepKey": "ksdeployparallelsdriverslink"
+            "stepKey": "ksrenameisolink"
         }, 
         {
             "order": 250, 
-            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+            "stepKey": "deploywindowsserverunattendedconfiglink"
         }, 
         {
             "order": 300, 
+            "stepKey": "ksdeployparallelsdriverslink"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "kscreatedriversandanswerfileisolink"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+        }, 
+        {
+            "order": 450, 
             "stepKey": "removecdromdrivesandrestartlink"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "kscleanbuildfileslink"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "installparallelstoolslink"
         }
     ], 
     "name": "Kickstart Windows Server 2019 on macOS Parallels", 

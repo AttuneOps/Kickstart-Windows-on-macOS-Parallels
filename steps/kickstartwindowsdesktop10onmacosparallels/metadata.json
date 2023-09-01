@@ -32,14 +32,18 @@
         }, 
         {
             "order": 400, 
-            "stepKey": "kscreatedriversandanswerfileisolink"
+            "stepKey": "lindeploycustomsetupps1scriptlink"
         }, 
         {
             "order": 450, 
-            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+            "stepKey": "kscreatedriversandanswerfileisolink"
         }, 
         {
             "order": 500, 
+            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+        }, 
+        {
+            "order": 550, 
             "stepKey": "removecdromdrivesandrestartlink"
         }, 
         {

@@ -8,22 +8,30 @@
     "links": [
         {
             "order": 0, 
-            "stepKey": "deployandrenamewin2016isolink"
+            "stepKey": "kscleanbuildfileslink"
         }, 
         {
             "order": 50, 
-            "stepKey": "deploywindowsserverunattendedconfiglink"
+            "stepKey": "kscheckmacosforisobuildinglink"
         }, 
         {
             "order": 100, 
-            "stepKey": "ksdeployparallelsdriverslink"
+            "stepKey": "deployandrenamewin2016isolink"
         }, 
         {
             "order": 150, 
-            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+            "stepKey": "deploywindowsserverunattendedconfiglink"
         }, 
         {
             "order": 200, 
+            "stepKey": "ksdeployparallelsdriverslink"
+        }, 
+        {
+            "order": 250, 
+            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+        }, 
+        {
+            "order": 300, 
             "stepKey": "removecdromdrivesandrestartlink"
         }
     ], 

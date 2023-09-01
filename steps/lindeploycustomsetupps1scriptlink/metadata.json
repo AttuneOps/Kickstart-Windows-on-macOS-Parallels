@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "26ae1766-e381-41ea-9d78-26d99e844605", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "8786359d-534e-4989-94c0-4177b6b1daf4", 
+    "key": "lindeploycustomsetupps1scriptlink", 
+    "name": "LIN Deploy Custom Setup PS1 Script (link)", 
+    "parameterMap": [], 
+    "projectName": "", 
+    "projectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}
