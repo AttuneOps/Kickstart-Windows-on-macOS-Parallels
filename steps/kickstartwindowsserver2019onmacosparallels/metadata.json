@@ -32,22 +32,26 @@
         }, 
         {
             "order": 350, 
-            "stepKey": "kscreatedriversandanswerfileisolink"
+            "stepKey": "lindeploycustomsetupps1scriptlink"
         }, 
         {
             "order": 400, 
-            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+            "stepKey": "kscreatedriversandanswerfileisolink"
         }, 
         {
             "order": 450, 
-            "stepKey": "removecdromdrivesandrestartlink"
+            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
         }, 
         {
             "order": 500, 
-            "stepKey": "kscleanbuildfileslink"
+            "stepKey": "removecdromdrivesandrestartlink"
         }, 
         {
             "order": 550, 
+            "stepKey": "kscleanbuildfileslink"
+        }, 
+        {
+            "order": 600, 
             "stepKey": "installparallelstoolslink"
         }
     ], 

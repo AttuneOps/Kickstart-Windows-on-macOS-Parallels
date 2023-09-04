@@ -40,7 +40,7 @@
         }, 
         {
             "order": 500, 
-            "stepKey": "ksparallelsrecreatevirtualmachinelink"
+            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
         }, 
         {
             "order": 550, 
