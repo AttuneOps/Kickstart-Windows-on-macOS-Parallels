@@ -1,7 +1,7 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "", 
-    "blueprintUuid": "c51b1e06-645b-45e8-abbf-4fc94578446b", 
+    "blueprintUuid": "a6331f58-eca6-4249-9062-18669d430428", 
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "0db136df-50be-43b4-97f5-8d227cd8118e", 
@@ -9,7 +9,7 @@
     "name": "Deploy Windows Server Unattended Config (link)", 
     "parameterMap": [], 
     "projectName": "", 
-    "projectUuid": "56d962a4-655e-49bf-8dfe-0422eff27961", 
+    "projectUuid": "60ee90db-67db-45e3-b016-79f368e87195", 
     "projectVersion": "", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }
