@@ -16,23 +16,43 @@
         }, 
         {
             "order": 100, 
-            "stepKey": "deployandrenamewin2016isolink"
+            "stepKey": "deploywindowsserver2016isolink"
         }, 
         {
             "order": 150, 
-            "stepKey": "deploywindowsserverunattendedconfiglink"
+            "stepKey": "ksrenameisolink"
         }, 
         {
             "order": 200, 
-            "stepKey": "ksdeployparallelsdriverslink"
+            "stepKey": "deploywindowsserverunattendedconfiglink"
         }, 
         {
             "order": 250, 
-            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
+            "stepKey": "ksdeployparallelsdriverslink"
         }, 
         {
             "order": 300, 
+            "stepKey": "lindeploycustomsetupps1scriptlink"
+        }, 
+        {
+            "order": 350, 
+            "stepKey": "kscreatedriversandanswerfileisolink"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
+        }, 
+        {
+            "order": 450, 
             "stepKey": "removecdromdrivesandrestartlink"
+        }, 
+        {
+            "order": 500, 
+            "stepKey": "kscleanbuildfileslink"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "installparallelstoolslink"
         }
     ], 
     "name": "Kickstart Windows Server 2016 on macOS Parallels", 
