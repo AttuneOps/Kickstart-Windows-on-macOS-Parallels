@@ -1,0 +1,1 @@
+Deploys Windows Server 2019 ISO to `${HOME}/Parallels/os_auto_install//build-{kickstartedNode.fqn}`.

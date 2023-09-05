@@ -1,0 +1,1 @@
+Deploys Windows Server 2022 ISO to `${HOME}/Parallels/os_auto_install//build-{kickstartedNode.fqn}`.

@@ -1,1 +1,1 @@
-Deploys Windows Desktoop ISO to `${HOME}/Parallels/os_auto_install/build-{kickstartedNode.fqn}`.
+Deploys Windows Desktop 10 ISO to `${HOME}/Parallels/os_auto_install/build-{kickstartedNode.fqn}`.
