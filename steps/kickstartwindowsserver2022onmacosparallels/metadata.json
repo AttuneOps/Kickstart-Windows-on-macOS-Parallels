@@ -16,23 +16,43 @@
         }, 
         {
             "order": 100, 
-            "stepKey": "deployandrenamewin2022isolink"
+            "stepKey": "deploywindowsserver2022isolink"
         }, 
         {
             "order": 150, 
-            "stepKey": "deploywindowsserverunattendedconfiglink"
+            "stepKey": "ksrenameisolink"
         }, 
         {
             "order": 200, 
-            "stepKey": "ksdeployparallelsdriverslink"
+            "stepKey": "deploywindowsserverunattendedconfiglink"
         }, 
         {
             "order": 250, 
-            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
+            "stepKey": "ksdeployparallelsdriverslink"
         }, 
         {
             "order": 300, 
+            "stepKey": "lindeploycustomsetupps1scriptlink"
+        }, 
+        {
+            "order": 400, 
+            "stepKey": "kscreatedriversandanswerfileisolink"
+        }, 
+        {
+            "order": 450, 
+            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
+        }, 
+        {
+            "order": 500, 
             "stepKey": "removecdromdrivesandrestartlink"
+        }, 
+        {
+            "order": 550, 
+            "stepKey": "kscleanbuildfileslink"
+        }, 
+        {
+            "order": 600, 
+            "stepKey": "installparallelstoolslink"
         }
     ], 
     "name": "Kickstart Windows Server 2022 on macOS Parallels", 

@@ -27,16 +27,12 @@
             "stepKey": "deploywindowsserverunattendedconfiglink"
         }, 
         {
-            "order": 250, 
-            "stepKey": "ksdeployparallelsdriverslink"
-        }, 
-        {
             "order": 300, 
             "stepKey": "lindeploycustomsetupps1scriptlink"
         }, 
         {
             "order": 350, 
-            "stepKey": "kscreatedriversandanswerfileisolink"
+            "stepKey": "kscreatewin2016driversandanswerfileisolink"
         }, 
         {
             "order": 400, 
