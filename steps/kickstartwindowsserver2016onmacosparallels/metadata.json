@@ -24,7 +24,7 @@
         }, 
         {
             "order": 200, 
-            "stepKey": "deploywindowsserverunattendedconfiglink"
+            "stepKey": "deploywindowsserverunattendedconfigforparallelslink"
         }, 
         {
             "order": 300, 

@@ -24,7 +24,7 @@
         }, 
         {
             "order": 300, 
-            "stepKey": "ksdeploywin10unattendedconfiglink"
+            "stepKey": "ksdeploywin10unattendedconfigforparallelslink"
         }, 
         {
             "order": 350, 

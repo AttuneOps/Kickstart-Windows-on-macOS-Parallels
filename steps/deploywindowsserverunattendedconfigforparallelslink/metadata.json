@@ -5,8 +5,8 @@
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "0db136df-50be-43b4-97f5-8d227cd8118e", 
-    "key": "deploywindowsserverunattendedconfiglink", 
-    "name": "Deploy Windows Server Unattended Config (link)", 
+    "key": "deploywindowsserverunattendedconfigforparallelslink", 
+    "name": "Deploy Windows Server Unattended Config for Parallels (link)", 
     "parameterMap": [
         {
             "childParameterName": null, 
