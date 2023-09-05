@@ -36,22 +36,22 @@
         }, 
         {
             "order": 450, 
-            "stepKey": "kscreatewin2016answerfileisolink"
-        }, 
-        {
-            "order": 500, 
-            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
+            "stepKey": "kscreatedriversandanswerfileisolink"
         }, 
         {
             "order": 550, 
-            "stepKey": "removecdromdrivesandrestartlink"
+            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
         }, 
         {
             "order": 600, 
-            "stepKey": "kscleanbuildfileslink"
+            "stepKey": "removecdromdrivesandrestartlink"
         }, 
         {
             "order": 650, 
+            "stepKey": "kscleanbuildfileslink"
+        }, 
+        {
+            "order": 700, 
             "stepKey": "installparallelstoolslink"
         }
     ], 
