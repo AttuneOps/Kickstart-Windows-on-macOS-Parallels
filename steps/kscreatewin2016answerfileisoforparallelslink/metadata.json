@@ -1,12 +1,12 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "", 
-    "blueprintUuid": "2a4e98e0-6c65-462e-a5f4-260e4d741d79", 
+    "blueprintUuid": "d53bdbcd-80b0-49f6-a646-bdd8910434f0", 
     "cloneUrl": "", 
     "enabled": true, 
-    "externalUuid4": "4249c142-0d30-4a33-abf4-f2340e9658d9", 
-    "key": "kscreatedriversandanswerfileisolink", 
-    "name": "KS Create Drivers and Answer File ISO (link)", 
+    "externalUuid4": "7976d2a1-573b-4e90-811a-7fb3b07eec97", 
+    "key": "kscreatewin2016answerfileisoforparallelslink", 
+    "name": "KS Create Win2016 Answer File ISO for Parallels (link)", 
     "parameterMap": [
         {
             "childParameterName": null, 
