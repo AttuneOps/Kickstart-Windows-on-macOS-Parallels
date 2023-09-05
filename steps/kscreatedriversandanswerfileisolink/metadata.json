@@ -1,7 +1,7 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "", 
-    "blueprintUuid": "6b48db8d-ca2b-4beb-a505-a7647994256d", 
+    "blueprintUuid": "2a4e98e0-6c65-462e-a5f4-260e4d741d79", 
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "4249c142-0d30-4a33-abf4-f2340e9658d9", 
@@ -11,33 +11,33 @@
         {
             "childParameterName": null, 
             "childParameterType": "c.s.s.b.phv.Text", 
-            "childParameterUuid": "80a11727-4207-41b8-b181-6e1f0cd15b41", 
+            "childParameterUuid": "27cbd06c-9a60-48ed-b8d0-bd0d34dbe544", 
             "childProjectName": null, 
-            "childProjectUuid": "60ee90db-67db-45e3-b016-79f368e87195", 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
             "parentParameterKey": null, 
             "parentStaticTextValue": "${HOME}/Parallels/os_auto_install"
         }, 
         {
             "childParameterName": null, 
             "childParameterType": "c.s.s.b.phv.LinuxServer", 
-            "childParameterUuid": "dc4b38b5-dd18-4d60-af66-4a8d29057d7b", 
+            "childParameterUuid": "6adef4f6-9180-4ab1-95e7-486de103f1fd", 
             "childProjectName": null, 
-            "childProjectUuid": "60ee90db-67db-45e3-b016-79f368e87195", 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
             "parentParameterKey": "macoshost", 
             "parentStaticTextValue": null
         }, 
         {
             "childParameterName": null, 
             "childParameterType": "c.s.s.b.phv.LinOsCred", 
-            "childParameterUuid": "6e114f1e-543a-4106-9f5c-fbb8171eefd7", 
+            "childParameterUuid": "7a64ee22-768c-411b-8aee-fb482908f6fb", 
             "childProjectName": null, 
-            "childProjectUuid": "60ee90db-67db-45e3-b016-79f368e87195", 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
             "parentParameterKey": "macoshostuser", 
             "parentStaticTextValue": null
         }
     ], 
     "projectName": "", 
-    "projectUuid": "60ee90db-67db-45e3-b016-79f368e87195", 
+    "projectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
     "projectVersion": "", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }

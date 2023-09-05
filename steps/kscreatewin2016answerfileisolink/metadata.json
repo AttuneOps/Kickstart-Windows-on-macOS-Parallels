@@ -16,6 +16,24 @@
             "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
             "parentParameterKey": null, 
             "parentStaticTextValue": "${HOME}/Parallels/os_auto_install"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinuxServer", 
+            "childParameterUuid": "6adef4f6-9180-4ab1-95e7-486de103f1fd", 
+            "childProjectName": null, 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+            "parentParameterKey": "macoshost", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinOsCred", 
+            "childParameterUuid": "7a64ee22-768c-411b-8aee-fb482908f6fb", 
+            "childProjectName": null, 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+            "parentParameterKey": "macoshostuser", 
+            "parentStaticTextValue": null
         }
     ], 
     "projectName": "", 
