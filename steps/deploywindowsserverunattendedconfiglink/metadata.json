@@ -1,15 +1,25 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "", 
-    "blueprintUuid": "a6331f58-eca6-4249-9062-18669d430428", 
+    "blueprintUuid": "f2738dcb-52c2-410d-a1b0-734803d4f3b6", 
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "0db136df-50be-43b4-97f5-8d227cd8118e", 
     "key": "deploywindowsserverunattendedconfiglink", 
     "name": "Deploy Windows Server Unattended Config (link)", 
-    "parameterMap": [], 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "27cbd06c-9a60-48ed-b8d0-bd0d34dbe544", 
+            "childProjectName": null, 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "${HOME}/Parallels/os_auto_install"
+        }
+    ], 
     "projectName": "", 
-    "projectUuid": "60ee90db-67db-45e3-b016-79f368e87195", 
+    "projectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
     "projectVersion": "", 
     "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
 }
