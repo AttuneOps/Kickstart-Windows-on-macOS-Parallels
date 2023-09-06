@@ -20,7 +20,7 @@
         }, 
         {
             "order": 150, 
-            "stepKey": "ksrenameisolink"
+            "stepKey": "renameiso"
         }, 
         {
             "order": 300, 

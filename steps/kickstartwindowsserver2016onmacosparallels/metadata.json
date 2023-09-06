@@ -20,10 +20,10 @@
         }, 
         {
             "order": 150, 
-            "stepKey": "ksrenameisolink"
+            "stepKey": "renameiso"
         }, 
         {
-            "order": 200, 
+            "order": 250, 
             "stepKey": "deploywindowsserverunattendedconfigforparallelslink"
         }, 
         {

@@ -20,18 +20,18 @@
         }, 
         {
             "order": 150, 
-            "stepKey": "ksrenameisolink"
-        }, 
-        {
-            "order": 200, 
-            "stepKey": "deploywindowsserverunattendedconfigforparallelslink"
+            "stepKey": "renameiso"
         }, 
         {
             "order": 250, 
-            "stepKey": "ksdeployparallelsdriverslink"
+            "stepKey": "deploywindowsserverunattendedconfigforparallelslink"
         }, 
         {
             "order": 300, 
+            "stepKey": "ksdeployparallelsdriverslink"
+        }, 
+        {
+            "order": 350, 
             "stepKey": "lindeploycustomsetupps1scriptlink"
         }, 
         {

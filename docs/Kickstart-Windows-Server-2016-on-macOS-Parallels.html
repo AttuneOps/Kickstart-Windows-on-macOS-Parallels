@@ -230,8 +230,8 @@
         
 
                     <p class="text-muted pt-2">
-                        <a href="#ksrenameisolink">
-                            <strong>Step 4 -</strong> KS Rename ISO (link)
+                        <a href="#renameiso">
+                            <strong>Step 4 -</strong> Rename ISO
                         </a>
                     </p>
 
@@ -474,9 +474,9 @@
 
 
                     <div class="row pt-5">
-                        <h3 id="ksrenameisolink">
-                            <a href="#ksrenameisolink">
-                                <strong>Step 4 -</strong> KS Rename ISO (link)
+                        <h3 id="renameiso">
+                            <a href="#renameiso">
+                                <strong>Step 4 -</strong> Rename ISO
                             </a>
                         </h3>
                     </div>
@@ -494,7 +494,42 @@
 
 
 
+
+
+
+
+                        <div class="row">
+                            <p>
+                                Connect via ssh:
+                            </p>
+                        </div>
+                        <div class="row py-1">
+                            <code class="language-sql">
+ssh {macoshostuser}@{macoshost}
+                            </code>
+                        </div>
+
+
+
     
+
+
+
+    <div class="row">
+        <p>
+            Execute the following script:
+        </p>
+    </div>
+    <div class="row">
+        <div class="col px-0">
+            <pre>
+                <code class="language-sql py-0">
+cd &quot;${HOME}/Parallels/os_auto_install/build-{kickstartedNode.fqn}&quot;
+mv -v $(ls) kickstart.iso
+                </code>
+            </pre>
+        </div>
+    </div>
 
 
 
