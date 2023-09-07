@@ -12,31 +12,11 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "kscleanbuildfileslinkdelete"
-        }, 
-        {
-            "order": 100, 
-            "stepKey": "deploywindowsserver2019isolink"
-        }, 
-        {
-            "order": 150, 
-            "stepKey": "renameisodelete"
-        }, 
-        {
-            "order": 250, 
-            "stepKey": "deploywindowsserverunattendedconfigforparallelslink"
-        }, 
-        {
-            "order": 300, 
             "stepKey": "ksdeployparallelsdriverslink"
         }, 
         {
-            "order": 350, 
-            "stepKey": "lindeploycustomsetupps1scriptlinkdelete"
-        }, 
-        {
-            "order": 450, 
-            "stepKey": "kscreatedriversandanswerfileisoforparallelslinkdelete"
+            "order": 100, 
+            "stepKey": "createwindowsserver2019uefikickstartwith2isoslink"
         }, 
         {
             "order": 500, 
@@ -44,7 +24,7 @@
         }, 
         {
             "order": 650, 
-            "stepKey": "kscleanbuildfileslinkdelete"
+            "stepKey": "kscleanbuildfileslink"
         }
     ], 
     "name": "Kickstart Windows Server 2019 on macOS Parallels", 

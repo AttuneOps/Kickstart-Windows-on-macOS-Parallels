@@ -5,8 +5,8 @@
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "ad831183-d1d4-4422-9e09-f345f686c371", 
-    "key": "deploywindowsserver2019isolink", 
-    "name": "Deploy Windows Server 2019 ISO (link)", 
+    "key": "deploywindowsserver2019isolinkdelete", 
+    "name": "Deploy Windows Server 2019 ISO (link) - DELETE", 
     "parameterMap": [
         {
             "childParameterName": null, 

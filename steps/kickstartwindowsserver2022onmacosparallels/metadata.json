@@ -12,7 +12,7 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "kscleanbuildfileslinkdelete"
+            "stepKey": "kscleanbuildfileslink"
         }, 
         {
             "order": 100, 
@@ -24,7 +24,7 @@
         }, 
         {
             "order": 250, 
-            "stepKey": "deploywindowsserverunattendedconfigforparallelslink"
+            "stepKey": "deploywindowsserverunattendedconfigforparallelslinkdelete"
         }, 
         {
             "order": 300, 
@@ -44,7 +44,7 @@
         }, 
         {
             "order": 600, 
-            "stepKey": "kscleanbuildfileslinkdelete"
+            "stepKey": "kscleanbuildfileslink"
         }
     ], 
     "name": "Kickstart Windows Server 2022 on macOS Parallels", 
