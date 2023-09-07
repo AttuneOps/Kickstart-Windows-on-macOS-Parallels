@@ -214,48 +214,16 @@
         
 
                     <p class="text-muted pt-2">
-                        <a href="#kscleanbuildfileslink">
-                            <strong>Step 2 -</strong> KS Clean Build Files (link)
-                        </a>
-                    </p>
-
-        
-
-                    <p class="text-muted pt-2">
-                        <a href="#deploywindowsdesktop10isolink">
-                            <strong>Step 3 -</strong> Deploy Windows Desktop 10 ISO (link)
-                        </a>
-                    </p>
-
-        
-
-                    <p class="text-muted pt-2">
-                        <a href="#renameiso">
-                            <strong>Step 4 -</strong> Rename ISO
-                        </a>
-                    </p>
-
-        
-
-                    <p class="text-muted pt-2">
-                        <a href="#ksdeploywin10unattendedconfigforparallelslink">
-                            <strong>Step 5 -</strong> KS Deploy Win10 Unattended Config for Parallels (link)
-                        </a>
-                    </p>
-
-        
-
-                    <p class="text-muted pt-2">
                         <a href="#ksdeployparallelsdriverslink">
-                            <strong>Step 6 -</strong> KS Deploy Parallels Drivers (link)
+                            <strong>Step 2 -</strong> KS Deploy Parallels Drivers (link)
                         </a>
                     </p>
 
         
 
                     <p class="text-muted pt-2">
-                        <a href="#lindeploycustomsetupps1scriptlink">
-                            <strong>Step 7 -</strong> LIN Deploy Custom Setup PS1 Script (link)
+                        <a href="#createwindowsdesktop10uefikickstartisowith2isoslink">
+                            <strong>Step 3 -</strong> Create Windows Desktop 10 UEFI Kickstart ISO with 2 ISOs (link)
                         </a>
                     </p>
 
@@ -263,7 +231,7 @@
 
                     <p class="text-muted pt-2">
                         <a href="#kscreatedriversandanswerfileisoforparallelslink">
-                            <strong>Step 8 -</strong> KS Create Drivers and Answer File ISO for Parallels (link)
+                            <strong>Step 4 -</strong> KS Create Drivers and Answer File ISO for Parallels (link)
                         </a>
                     </p>
 
@@ -271,15 +239,15 @@
 
                     <p class="text-muted pt-2">
                         <a href="#parallelsrecreatewindowsvirtualmachineandinstalltoolslink">
-                            <strong>Step 9 -</strong> Parallels Recreate Windows Virtual Machine and Install Tools (link)
+                            <strong>Step 5 -</strong> Parallels Recreate Windows Virtual Machine and Install Tools (link)
                         </a>
                     </p>
 
         
 
                     <p class="text-muted pt-2">
-                        <a href="#kscleanbuildfileslink">
-                            <strong>Step 10 -</strong> KS Clean Build Files (link)
+                        <a href="#kscleanbuildfileslinkdelete">
+                            <strong>Step 6 -</strong> KS Clean Build Files (link) - DELETE
                         </a>
                     </p>
 
@@ -404,168 +372,9 @@
 
 
                     <div class="row pt-5">
-                        <h3 id="kscleanbuildfileslink">
-                            <a href="#kscleanbuildfileslink">
-                                <strong>Step 2 -</strong> KS Clean Build Files (link)
-                            </a>
-                        </h3>
-                    </div>
-
-                    <div class="row">
-                        <div class="description col px-0">
-                            <p>
-                                <p>Deletes the build files and kickstart ISO.</p>
-                            </p>
-                        </div>
-                    </div>
-
-
-
-
-
-
-    
-
-
-
-
-
-        
-
-
-
-                    <div class="row pt-5">
-                        <h3 id="deploywindowsdesktop10isolink">
-                            <a href="#deploywindowsdesktop10isolink">
-                                <strong>Step 3 -</strong> Deploy Windows Desktop 10 ISO (link)
-                            </a>
-                        </h3>
-                    </div>
-
-                    <div class="row">
-                        <div class="description col px-0">
-                            <p>
-                                <p>Deploys Windows Desktop 10 ISO to <code>${HOME}/Parallels/os_auto_install/build-{kickstartedNode.fqn}</code>.</p>
-                            </p>
-                        </div>
-                    </div>
-
-
-
-
-
-
-    
-
-
-
-
-
-        
-
-
-
-                    <div class="row pt-5">
-                        <h3 id="renameiso">
-                            <a href="#renameiso">
-                                <strong>Step 4 -</strong> Rename ISO
-                            </a>
-                        </h3>
-                    </div>
-
-                    <div class="row">
-                        <div class="description col px-0">
-                            <p>
-                                <p>Renames the ISO at directory <code>${HOME}/Parallels/os_auto_install/build-{kickstartedNode.fqn</code> to <code>kickstart.iso</code>.</p>
-                            </p>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
-
-
-
-                        <div class="row">
-                            <p>
-                                Connect via ssh:
-                            </p>
-                        </div>
-                        <div class="row py-1">
-                            <code class="language-sql">
-ssh {macoshostuser}@{macoshost}
-                            </code>
-                        </div>
-
-
-
-    
-
-
-
-    <div class="row">
-        <p>
-            Execute the following script:
-        </p>
-    </div>
-    <div class="row">
-        <div class="col px-0">
-            <pre>
-                <code class="language-sql py-0">
-cd &quot;${HOME}/Parallels/os_auto_install/build-{kickstartedNode.fqn}&quot;
-mv -v $(ls) kickstart.iso
-                </code>
-            </pre>
-        </div>
-    </div>
-
-
-
-
-
-        
-
-
-
-                    <div class="row pt-5">
-                        <h3 id="ksdeploywin10unattendedconfigforparallelslink">
-                            <a href="#ksdeploywin10unattendedconfigforparallelslink">
-                                <strong>Step 5 -</strong> KS Deploy Win10 Unattended Config for Parallels (link)
-                            </a>
-                        </h3>
-                    </div>
-
-                    <div class="row">
-                        <div class="description col px-0">
-                            <p>
-                                <p>Deploys the Windows Desktop 10 unattended config for Parallels Desktop.</p>
-                            </p>
-                        </div>
-                    </div>
-
-
-
-
-
-
-    
-
-
-
-
-
-        
-
-
-
-                    <div class="row pt-5">
                         <h3 id="ksdeployparallelsdriverslink">
                             <a href="#ksdeployparallelsdriverslink">
-                                <strong>Step 6 -</strong> KS Deploy Parallels Drivers (link)
+                                <strong>Step 2 -</strong> KS Deploy Parallels Drivers (link)
                             </a>
                         </h3>
                     </div>
@@ -595,20 +404,13 @@ mv -v $(ls) kickstart.iso
 
 
                     <div class="row pt-5">
-                        <h3 id="lindeploycustomsetupps1scriptlink">
-                            <a href="#lindeploycustomsetupps1scriptlink">
-                                <strong>Step 7 -</strong> LIN Deploy Custom Setup PS1 Script (link)
+                        <h3 id="createwindowsdesktop10uefikickstartisowith2isoslink">
+                            <a href="#createwindowsdesktop10uefikickstartisowith2isoslink">
+                                <strong>Step 3 -</strong> Create Windows Desktop 10 UEFI Kickstart ISO with 2 ISOs (link)
                             </a>
                         </h3>
                     </div>
 
-                    <div class="row">
-                        <div class="description col px-0">
-                            <p>
-                                <p>Deploys the custom run once PowerShell scripts.</p>
-                            </p>
-                        </div>
-                    </div>
 
 
 
@@ -628,7 +430,7 @@ mv -v $(ls) kickstart.iso
                     <div class="row pt-5">
                         <h3 id="kscreatedriversandanswerfileisoforparallelslink">
                             <a href="#kscreatedriversandanswerfileisoforparallelslink">
-                                <strong>Step 8 -</strong> KS Create Drivers and Answer File ISO for Parallels (link)
+                                <strong>Step 4 -</strong> KS Create Drivers and Answer File ISO for Parallels (link)
                             </a>
                         </h3>
                     </div>
@@ -668,7 +470,7 @@ mv -v $(ls) kickstart.iso
                     <div class="row pt-5">
                         <h3 id="parallelsrecreatewindowsvirtualmachineandinstalltoolslink">
                             <a href="#parallelsrecreatewindowsvirtualmachineandinstalltoolslink">
-                                <strong>Step 9 -</strong> Parallels Recreate Windows Virtual Machine and Install Tools (link)
+                                <strong>Step 5 -</strong> Parallels Recreate Windows Virtual Machine and Install Tools (link)
                             </a>
                         </h3>
                     </div>
@@ -697,9 +499,9 @@ mv -v $(ls) kickstart.iso
 
 
                     <div class="row pt-5">
-                        <h3 id="kscleanbuildfileslink">
-                            <a href="#kscleanbuildfileslink">
-                                <strong>Step 10 -</strong> KS Clean Build Files (link)
+                        <h3 id="kscleanbuildfileslinkdelete">
+                            <a href="#kscleanbuildfileslinkdelete">
+                                <strong>Step 6 -</strong> KS Clean Build Files (link) - DELETE
                             </a>
                         </h3>
                     </div>

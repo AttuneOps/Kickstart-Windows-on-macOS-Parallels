@@ -5,8 +5,8 @@
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "29df1c74-0500-4bfb-a749-2bd99b421602", 
-    "key": "ksdeploywin10unattendedconfigforparallelslink", 
-    "name": "KS Deploy Win10 Unattended Config for Parallels (link)", 
+    "key": "ksdeploywin10unattendedconfigforparallelslinkdelete", 
+    "name": "KS Deploy Win10 Unattended Config for Parallels (link) - DELETE", 
     "parameterMap": [
         {
             "childParameterName": null, 

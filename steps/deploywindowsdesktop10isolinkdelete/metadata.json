@@ -5,8 +5,8 @@
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "4fb7f8f7-db1b-4174-95fe-0185da8253fe", 
-    "key": "deploywindowsdesktop10isolink", 
-    "name": "Deploy Windows Desktop 10 ISO (link)", 
+    "key": "deploywindowsdesktop10isolinkdelete", 
+    "name": "Deploy Windows Desktop 10 ISO (link) - DELETE", 
     "parameterMap": [
         {
             "childParameterName": null, 

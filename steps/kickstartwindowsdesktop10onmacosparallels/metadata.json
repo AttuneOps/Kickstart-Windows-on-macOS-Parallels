@@ -12,27 +12,11 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "kscleanbuildfileslink"
-        }, 
-        {
-            "order": 100, 
-            "stepKey": "deploywindowsdesktop10isolink"
-        }, 
-        {
-            "order": 150, 
-            "stepKey": "renameiso"
-        }, 
-        {
-            "order": 300, 
-            "stepKey": "ksdeploywin10unattendedconfigforparallelslink"
-        }, 
-        {
-            "order": 350, 
             "stepKey": "ksdeployparallelsdriverslink"
         }, 
         {
-            "order": 400, 
-            "stepKey": "lindeploycustomsetupps1scriptlink"
+            "order": 100, 
+            "stepKey": "createwindowsdesktop10uefikickstartisowith2isoslink"
         }, 
         {
             "order": 450, 
@@ -44,7 +28,7 @@
         }, 
         {
             "order": 650, 
-            "stepKey": "kscleanbuildfileslink"
+            "stepKey": "kscleanbuildfileslinkdelete"
         }
     ], 
     "name": "Kickstart Windows Desktop 10 on macOS Parallels", 

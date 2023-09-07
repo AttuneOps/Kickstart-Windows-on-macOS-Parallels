@@ -5,8 +5,8 @@
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "e01abee9-f152-4502-860f-60c4f7ee0307", 
-    "key": "kscleanbuildfileslink", 
-    "name": "KS Clean Build Files (link)", 
+    "key": "kscleanbuildfileslinkdelete", 
+    "name": "KS Clean Build Files (link) - DELETE", 
     "parameterMap": [
         {
             "childParameterName": null, 

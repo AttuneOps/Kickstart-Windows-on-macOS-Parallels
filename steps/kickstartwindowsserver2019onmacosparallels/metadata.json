@@ -12,7 +12,7 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "kscleanbuildfileslink"
+            "stepKey": "kscleanbuildfileslinkdelete"
         }, 
         {
             "order": 100, 
@@ -20,7 +20,7 @@
         }, 
         {
             "order": 150, 
-            "stepKey": "renameiso"
+            "stepKey": "renameisodelete"
         }, 
         {
             "order": 250, 
@@ -32,7 +32,7 @@
         }, 
         {
             "order": 350, 
-            "stepKey": "lindeploycustomsetupps1scriptlink"
+            "stepKey": "lindeploycustomsetupps1scriptlinkdelete"
         }, 
         {
             "order": 450, 
@@ -44,7 +44,7 @@
         }, 
         {
             "order": 650, 
-            "stepKey": "kscleanbuildfileslink"
+            "stepKey": "kscleanbuildfileslinkdelete"
         }
     ], 
     "name": "Kickstart Windows Server 2019 on macOS Parallels", 
