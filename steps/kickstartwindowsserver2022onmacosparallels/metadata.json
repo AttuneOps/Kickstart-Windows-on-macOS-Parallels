@@ -8,11 +8,11 @@
     "links": [
         {
             "order": 0, 
-            "stepKey": "kscleanbuildfileslink"
+            "stepKey": "kscheckmacosforisobuildinglink"
         }, 
         {
             "order": 50, 
-            "stepKey": "kscheckmacosforisobuildinglink"
+            "stepKey": "kscleanbuildfileslink"
         }, 
         {
             "order": 100, 

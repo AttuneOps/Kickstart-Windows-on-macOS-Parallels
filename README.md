@@ -74,9 +74,9 @@ This Project contains the following Blueprints.
 
 | Name | Type | Script Reference | Comment |
 | ---- | ---- | ---------------- | ------- |
+| Kickstarted Node | Basic Node | `kickstartednode` |  |
 | macOS Host | Linux/Unix Node | `macoshost` |  |
 | macOS Host User | Linux/Unix Credential | `macoshostuser` |  |
-| Kickstarted Node | Basic Node | `kickstartednode` |  |
 
 
 
