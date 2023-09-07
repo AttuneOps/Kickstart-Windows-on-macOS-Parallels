@@ -5,8 +5,8 @@
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "4249c142-0d30-4a33-abf4-f2340e9658d9", 
-    "key": "kscreatedriversandanswerfileisoforparallelslink", 
-    "name": "KS Create Drivers and Answer File ISO for Parallels (link)", 
+    "key": "kscreatedriversandanswerfileisoforparallelslinkdelete", 
+    "name": "KS Create Drivers and Answer File ISO for Parallels (link) - DELETE", 
     "parameterMap": [
         {
             "childParameterName": null, 
