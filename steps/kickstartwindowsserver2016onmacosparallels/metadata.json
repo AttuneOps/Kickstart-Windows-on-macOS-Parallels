@@ -36,19 +36,11 @@
         }, 
         {
             "order": 400, 
-            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
-        }, 
-        {
-            "order": 450, 
-            "stepKey": "removecdromdrivesandrestartlink"
-        }, 
-        {
-            "order": 500, 
-            "stepKey": "kscleanbuildfileslink"
+            "stepKey": "parallelsrecreatewindowsvirtualmachineandinstalltoolslink"
         }, 
         {
             "order": 550, 
-            "stepKey": "installparallelstoolslink"
+            "stepKey": "kscleanbuildfileslink"
         }
     ], 
     "name": "Kickstart Windows Server 2016 on macOS Parallels", 

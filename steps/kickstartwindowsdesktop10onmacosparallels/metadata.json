@@ -39,20 +39,12 @@
             "stepKey": "kscreatedriversandanswerfileisoforparallelslink"
         }, 
         {
-            "order": 550, 
-            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
-        }, 
-        {
-            "order": 600, 
-            "stepKey": "removecdromdrivesandrestartlink"
+            "order": 500, 
+            "stepKey": "parallelsrecreatewindowsvirtualmachineandinstalltoolslink"
         }, 
         {
             "order": 650, 
             "stepKey": "kscleanbuildfileslink"
-        }, 
-        {
-            "order": 700, 
-            "stepKey": "installparallelstoolslink"
         }
     ], 
     "name": "Kickstart Windows Desktop 10 on macOS Parallels", 

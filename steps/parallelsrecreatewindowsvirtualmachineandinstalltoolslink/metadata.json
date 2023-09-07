@@ -1,12 +1,12 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "", 
-    "blueprintUuid": "4a3fbfee-4713-4506-9560-a44572713e62", 
+    "blueprintUuid": "b93d362e-a4d1-477a-af84-176c0735eea2", 
     "cloneUrl": "", 
     "enabled": true, 
-    "externalUuid4": "31a94233-d529-438c-a4a2-aeb2bb3723f7", 
-    "key": "ksparallelsrecreatewindowsvirtualmachinelink", 
-    "name": "KS Parallels Recreate Windows Virtual Machine (link)", 
+    "externalUuid4": "b9cc1f0b-000a-4711-a98f-c9c39935dd69", 
+    "key": "parallelsrecreatewindowsvirtualmachineandinstalltoolslink", 
+    "name": "Parallels Recreate Windows Virtual Machine and Install Tools (link)", 
     "parameterMap": [
         {
             "childParameterName": null, 

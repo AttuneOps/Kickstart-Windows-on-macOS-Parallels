@@ -40,19 +40,11 @@
         }, 
         {
             "order": 450, 
-            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
-        }, 
-        {
-            "order": 500, 
-            "stepKey": "removecdromdrivesandrestartlink"
-        }, 
-        {
-            "order": 550, 
-            "stepKey": "kscleanbuildfileslink"
+            "stepKey": "parallelsrecreatewindowsvirtualmachineandinstalltoolslink"
         }, 
         {
             "order": 600, 
-            "stepKey": "installparallelstoolslink"
+            "stepKey": "kscleanbuildfileslink"
         }
     ], 
     "name": "Kickstart Windows Server 2022 on macOS Parallels", 

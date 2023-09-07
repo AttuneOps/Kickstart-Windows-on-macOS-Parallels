@@ -40,19 +40,11 @@
         }, 
         {
             "order": 500, 
-            "stepKey": "ksparallelsrecreatewindowsvirtualmachinelink"
-        }, 
-        {
-            "order": 550, 
-            "stepKey": "removecdromdrivesandrestartlink"
-        }, 
-        {
-            "order": 600, 
-            "stepKey": "kscleanbuildfileslink"
+            "stepKey": "parallelsrecreatewindowsvirtualmachineandinstalltoolslink"
         }, 
         {
             "order": 650, 
-            "stepKey": "installparallelstoolslink"
+            "stepKey": "kscleanbuildfileslink"
         }
     ], 
     "name": "Kickstart Windows Server 2019 on macOS Parallels", 
