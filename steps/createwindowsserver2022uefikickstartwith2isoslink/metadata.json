@@ -1,12 +1,12 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "", 
-    "blueprintUuid": "36fdfc9d-a5ee-4f11-aa6f-2cce3a9f5a23", 
+    "blueprintUuid": "33f4759c-cdcb-469a-a79a-186fb6494e32", 
     "cloneUrl": "", 
     "enabled": true, 
-    "externalUuid4": "8545cd64-53d6-40e1-81cc-952a17e68d2f", 
-    "key": "createwindowsserver2019uefikickstartwith2isoslink", 
-    "name": "Create Windows Server 2019 UEFI Kickstart with 2 ISOs (link)", 
+    "externalUuid4": "56772d9e-3c0b-43d3-a926-152b535196b7", 
+    "key": "createwindowsserver2022uefikickstartwith2isoslink", 
+    "name": "Create Windows Server 2022 UEFI Kickstart with 2 ISOs (link)", 
     "parameterMap": [
         {
             "childParameterName": null, 

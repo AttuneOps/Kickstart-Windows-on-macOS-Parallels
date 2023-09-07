@@ -16,27 +16,11 @@
         }, 
         {
             "order": 100, 
-            "stepKey": "deploywindowsserver2022isolink"
-        }, 
-        {
-            "order": 150, 
-            "stepKey": "renameisodelete"
-        }, 
-        {
-            "order": 250, 
-            "stepKey": "deploywindowsserverunattendedconfigforparallelslinkdelete"
-        }, 
-        {
-            "order": 300, 
             "stepKey": "ksdeployparallelsdriverslink"
         }, 
         {
-            "order": 350, 
-            "stepKey": "lindeploycustomsetupps1scriptlinkdelete"
-        }, 
-        {
-            "order": 400, 
-            "stepKey": "kscreatedriversandanswerfileisoforparallelslinkdelete"
+            "order": 150, 
+            "stepKey": "createwindowsserver2022uefikickstartwith2isoslink"
         }, 
         {
             "order": 450, 

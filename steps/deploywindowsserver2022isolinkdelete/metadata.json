@@ -5,8 +5,8 @@
     "cloneUrl": "", 
     "enabled": true, 
     "externalUuid4": "6cd80754-37d0-4513-81fe-e99b56d2ba51", 
-    "key": "deploywindowsserver2022isolink", 
-    "name": "Deploy Windows Server 2022 ISO (link)", 
+    "key": "deploywindowsserver2022isolinkdelete", 
+    "name": "Deploy Windows Server 2022 ISO (link) - DELETE", 
     "parameterMap": [
         {
             "childParameterName": null, 

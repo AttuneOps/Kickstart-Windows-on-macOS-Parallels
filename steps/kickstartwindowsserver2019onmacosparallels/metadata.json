@@ -12,10 +12,14 @@
         }, 
         {
             "order": 50, 
-            "stepKey": "ksdeployparallelsdriverslink"
+            "stepKey": "kscleanbuildfileslink"
         }, 
         {
             "order": 100, 
+            "stepKey": "ksdeployparallelsdriverslink"
+        }, 
+        {
+            "order": 150, 
             "stepKey": "createwindowsserver2019uefikickstartwith2isoslink"
         }, 
         {
