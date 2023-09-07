@@ -222,40 +222,16 @@
         
 
                     <p class="text-muted pt-2">
-                        <a href="#deploywindowsserver2016isolink">
-                            <strong>Step 3 -</strong> Deploy Windows Server 2016 ISO (link)
+                        <a href="#createemptydriversfolderforwin2016">
+                            <strong>Step 3 -</strong> Create Empty Drivers Folder for Win2016
                         </a>
                     </p>
 
         
 
                     <p class="text-muted pt-2">
-                        <a href="#renameisodelete">
-                            <strong>Step 4 -</strong> Rename ISO - DELETE
-                        </a>
-                    </p>
-
-        
-
-                    <p class="text-muted pt-2">
-                        <a href="#deploywindowsserverunattendedconfigforparallelslinkdelete">
-                            <strong>Step 5 -</strong> Deploy Windows Server Unattended Config for Parallels (link) - DELETE
-                        </a>
-                    </p>
-
-        
-
-                    <p class="text-muted pt-2">
-                        <a href="#lindeploycustomsetupps1scriptlinkdelete">
-                            <strong>Step 6 -</strong> LIN Deploy Custom Setup PS1 Script (link) - DELETE
-                        </a>
-                    </p>
-
-        
-
-                    <p class="text-muted pt-2">
-                        <a href="#kscreatewin2016answerfileisoforparallelslink">
-                            <strong>Step 7 -</strong> KS Create Win2016 Answer File ISO for Parallels (link)
+                        <a href="#createwindowsserver2016uefikickstartwith2isoslink">
+                            <strong>Step 4 -</strong> Create Windows Server 2016 UEFI Kickstart with 2 ISOs (link)
                         </a>
                     </p>
 
@@ -263,7 +239,7 @@
 
                     <p class="text-muted pt-2">
                         <a href="#parallelsrecreatewindowsvirtualmachineandinstalltoolslink">
-                            <strong>Step 8 -</strong> Parallels Recreate Windows Virtual Machine and Install Tools (link)
+                            <strong>Step 5 -</strong> Parallels Recreate Windows Virtual Machine and Install Tools (link)
                         </a>
                     </p>
 
@@ -271,7 +247,7 @@
 
                     <p class="text-muted pt-2">
                         <a href="#kscleanbuildfileslink">
-                            <strong>Step 9 -</strong> KS Clean Build Files (link)
+                            <strong>Step 6 -</strong> KS Clean Build Files (link)
                         </a>
                     </p>
 
@@ -427,51 +403,13 @@
 
 
                     <div class="row pt-5">
-                        <h3 id="deploywindowsserver2016isolink">
-                            <a href="#deploywindowsserver2016isolink">
-                                <strong>Step 3 -</strong> Deploy Windows Server 2016 ISO (link)
+                        <h3 id="createemptydriversfolderforwin2016">
+                            <a href="#createemptydriversfolderforwin2016">
+                                <strong>Step 3 -</strong> Create Empty Drivers Folder for Win2016
                             </a>
                         </h3>
                     </div>
 
-                    <div class="row">
-                        <div class="description col px-0">
-                            <p>
-                                <p>Deploys Windows Server 2016 ISO to <code>${HOME}/Parallels/os_auto_install//build-{kickstartedNode.fqn}</code>.</p>
-                            </p>
-                        </div>
-                    </div>
-
-
-
-
-
-
-    
-
-
-
-
-
-        
-
-
-
-                    <div class="row pt-5">
-                        <h3 id="renameisodelete">
-                            <a href="#renameisodelete">
-                                <strong>Step 4 -</strong> Rename ISO - DELETE
-                            </a>
-                        </h3>
-                    </div>
-
-                    <div class="row">
-                        <div class="description col px-0">
-                            <p>
-                                <p>Renames the ISO at directory <code>${HOME}/Parallels/os_auto_install/build-{kickstartedNode.fqn</code> to <code>kickstart.iso</code>.</p>
-                            </p>
-                        </div>
-                    </div>
 
 
 
@@ -508,8 +446,7 @@ ssh {macoshostuser}@{macoshost}
         <div class="col px-0">
             <pre>
                 <code class="language-sql py-0">
-cd &quot;${HOME}/Parallels/os_auto_install/build-{kickstartedNode.fqn}&quot;
-mv -v $(ls) kickstart.iso
+mkdir --parents &quot;${HOME}/Parallels/os_auto_install/build-{kickstartedNode.fqn}/Drivers&quot;
                 </code>
             </pre>
         </div>
@@ -524,94 +461,13 @@ mv -v $(ls) kickstart.iso
 
 
                     <div class="row pt-5">
-                        <h3 id="deploywindowsserverunattendedconfigforparallelslinkdelete">
-                            <a href="#deploywindowsserverunattendedconfigforparallelslinkdelete">
-                                <strong>Step 5 -</strong> Deploy Windows Server Unattended Config for Parallels (link) - DELETE
+                        <h3 id="createwindowsserver2016uefikickstartwith2isoslink">
+                            <a href="#createwindowsserver2016uefikickstartwith2isoslink">
+                                <strong>Step 4 -</strong> Create Windows Server 2016 UEFI Kickstart with 2 ISOs (link)
                             </a>
                         </h3>
                     </div>
 
-                    <div class="row">
-                        <div class="description col px-0">
-                            <p>
-                                <p>Deploys the Windows Server 2019 unattended config for Parallels Desktop.</p>
-<p>This works for:</p>
-<ol>
-<li>Windows Server 2016</li>
-<li>Windows Server 2019</li>
-<li>Windows Server 2022</li>
-</ol>
-                            </p>
-                        </div>
-                    </div>
-
-
-
-
-
-
-    
-
-
-
-
-
-        
-
-
-
-                    <div class="row pt-5">
-                        <h3 id="lindeploycustomsetupps1scriptlinkdelete">
-                            <a href="#lindeploycustomsetupps1scriptlinkdelete">
-                                <strong>Step 6 -</strong> LIN Deploy Custom Setup PS1 Script (link) - DELETE
-                            </a>
-                        </h3>
-                    </div>
-
-                    <div class="row">
-                        <div class="description col px-0">
-                            <p>
-                                <p>Deploys the custom run once PowerShell scripts.</p>
-                            </p>
-                        </div>
-                    </div>
-
-
-
-
-
-
-    
-
-
-
-
-
-        
-
-
-
-                    <div class="row pt-5">
-                        <h3 id="kscreatewin2016answerfileisoforparallelslink">
-                            <a href="#kscreatewin2016answerfileisoforparallelslink">
-                                <strong>Step 7 -</strong> KS Create Win2016 Answer File ISO for Parallels (link)
-                            </a>
-                        </h3>
-                    </div>
-
-                    <div class="row">
-                        <div class="description col px-0">
-                            <p>
-                                <p>Creates an ISO called <code>Drivers.iso</code> containing:</p>
-<ol>
-<li><code>Autounattend.xml</code></li>
-<li><code>custom_setup.ps1</code></li>
-</ol>
-<p>This works for Parallels Desktop kickstarts with:
-1. Windows Server 2016</p>
-                            </p>
-                        </div>
-                    </div>
 
 
 
@@ -631,7 +487,7 @@ mv -v $(ls) kickstart.iso
                     <div class="row pt-5">
                         <h3 id="parallelsrecreatewindowsvirtualmachineandinstalltoolslink">
                             <a href="#parallelsrecreatewindowsvirtualmachineandinstalltoolslink">
-                                <strong>Step 8 -</strong> Parallels Recreate Windows Virtual Machine and Install Tools (link)
+                                <strong>Step 5 -</strong> Parallels Recreate Windows Virtual Machine and Install Tools (link)
                             </a>
                         </h3>
                     </div>
@@ -662,7 +518,7 @@ mv -v $(ls) kickstart.iso
                     <div class="row pt-5">
                         <h3 id="kscleanbuildfileslink">
                             <a href="#kscleanbuildfileslink">
-                                <strong>Step 9 -</strong> KS Clean Build Files (link)
+                                <strong>Step 6 -</strong> KS Clean Build Files (link)
                             </a>
                         </h3>
                     </div>

@@ -1,13 +1,22 @@
 {
     "actionOnStepFail": null, 
     "blueprintName": "", 
-    "blueprintUuid": "fdfb816e-1e70-4db9-b3fd-c7eb59d474cd", 
+    "blueprintUuid": "87193774-a232-4c1f-879c-fef2655c1024", 
     "cloneUrl": "", 
     "enabled": true, 
-    "externalUuid4": "0e74b419-2418-4cc4-93cf-c1deb669da3a", 
-    "key": "deploywindowsserver2016isolink", 
-    "name": "Deploy Windows Server 2016 ISO (link)", 
+    "externalUuid4": "b90061a5-8d9d-48a0-a21c-b2cf47914eee", 
+    "key": "createwindowsserver2016uefikickstartwith2isoslink", 
+    "name": "Create Windows Server 2016 UEFI Kickstart with 2 ISOs (link)", 
     "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "27cbd06c-9a60-48ed-b8d0-bd0d34dbe544", 
+            "childProjectName": null, 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": null
+        }, 
         {
             "childParameterName": null, 
             "childParameterType": "c.s.s.b.phv.LinuxServer", 
@@ -29,11 +38,11 @@
         {
             "childParameterName": null, 
             "childParameterType": "c.s.s.b.phv.Text", 
-            "childParameterUuid": "27cbd06c-9a60-48ed-b8d0-bd0d34dbe544", 
+            "childParameterUuid": "5501c810-9dcc-4c54-9568-91375ef2f7c5", 
             "childProjectName": null, 
             "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
             "parentParameterKey": null, 
-            "parentStaticTextValue": "${HOME}/Parallels/os_auto_install/"
+            "parentStaticTextValue": "E:\\Drivers"
         }
     ], 
     "projectName": "", 

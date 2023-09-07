@@ -1,0 +1,43 @@
+{
+    "actionOnStepFail": null, 
+    "blueprintName": "", 
+    "blueprintUuid": "d53bdbcd-80b0-49f6-a646-bdd8910434f0", 
+    "cloneUrl": "", 
+    "enabled": true, 
+    "externalUuid4": "7976d2a1-573b-4e90-811a-7fb3b07eec97", 
+    "key": "kscreatewin2016answerfileisoforparallelslinkdelete", 
+    "name": "KS Create Win2016 Answer File ISO for Parallels (link) - DELETE", 
+    "parameterMap": [
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.Text", 
+            "childParameterUuid": "27cbd06c-9a60-48ed-b8d0-bd0d34dbe544", 
+            "childProjectName": null, 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+            "parentParameterKey": null, 
+            "parentStaticTextValue": "${HOME}/Parallels/os_auto_install"
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinuxServer", 
+            "childParameterUuid": "6adef4f6-9180-4ab1-95e7-486de103f1fd", 
+            "childProjectName": null, 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+            "parentParameterKey": "macoshost", 
+            "parentStaticTextValue": null
+        }, 
+        {
+            "childParameterName": null, 
+            "childParameterType": "c.s.s.b.phv.LinOsCred", 
+            "childParameterUuid": "7a64ee22-768c-411b-8aee-fb482908f6fb", 
+            "childProjectName": null, 
+            "childProjectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+            "parentParameterKey": "macoshostuser", 
+            "parentStaticTextValue": null
+        }
+    ], 
+    "projectName": "", 
+    "projectUuid": "24a458c3-5025-400b-bb49-4eae2055a149", 
+    "projectVersion": "", 
+    "type": "com.servertribe.attune.tuples.StepProjectLinkTuple"
+}

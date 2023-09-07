@@ -16,23 +16,11 @@
         }, 
         {
             "order": 100, 
-            "stepKey": "deploywindowsserver2016isolink"
+            "stepKey": "createemptydriversfolderforwin2016"
         }, 
         {
             "order": 150, 
-            "stepKey": "renameisodelete"
-        }, 
-        {
-            "order": 250, 
-            "stepKey": "deploywindowsserverunattendedconfigforparallelslinkdelete"
-        }, 
-        {
-            "order": 300, 
-            "stepKey": "lindeploycustomsetupps1scriptlinkdelete"
-        }, 
-        {
-            "order": 350, 
-            "stepKey": "kscreatewin2016answerfileisoforparallelslink"
+            "stepKey": "createwindowsserver2016uefikickstartwith2isoslink"
         }, 
         {
             "order": 400, 
